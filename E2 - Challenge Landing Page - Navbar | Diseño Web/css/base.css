@@ -1,0 +1,49 @@
+:root{
+
+/* NavBar */
+--navbar-background: hsl(0, 25%, 2%);
+
+/* Text colors */
+--text-white: white; 
+
+/* otros colores */
+--background: white;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+  }
+
+html{
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+  }
+
+  body{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  label{
+    cursor: pointer;
+  }
